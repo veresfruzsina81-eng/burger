@@ -4,87 +4,374 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#080808">
+
   <title>STACK'D — Burgers Done Different</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <header class="nav">
-  <a class="brand" href="#hero"><b>STACK'D</b><span>BURGERS DONE DIFFERENT</span></a>
-  <nav><a href="#hero">HOME</a><a href="#explode">BURGER</a><a href="#order">ORDER</a></nav>
-  <a class="orderTop" href="#order">ORDER NOW</a>
+
+  <a class="brand" href="#hero">
+    <b>STACK'D</b>
+    <span>BURGERS DONE DIFFERENT</span>
+  </a>
+
+  <nav>
+    <a href="#hero">HOME</a>
+    <a href="#explode">BURGER</a>
+    <a href="#order">ORDER</a>
+  </nav>
+
+  <a class="orderTop" href="#order">
+    ORDER NOW
+  </a>
+
 </header>
 
+
 <main>
+
+<!-- ========================================
+     HERO
+======================================== -->
+
 <section class="hero" id="hero">
+
   <div class="glow"></div>
+
   <div class="copy">
+
     <p>PREMIUM BURGERS</p>
-    <h1>MORE THAN<br><em>A BURGER</em></h1>
-    <span>FRESH INGREDIENTS. BOLD FLAVORS.<br>BURGERS DONE DIFFERENT.</span>
-    <a class="cta" href="#explode">EXPLORE <b>↓</b></a>
+
+    <h1>
+      MORE THAN<br>
+      <em>A BURGER</em>
+    </h1>
+
+    <span>
+      FRESH INGREDIENTS. BOLD FLAVORS.<br>
+      BURGERS DONE DIFFERENT.
+    </span>
+
+    <a class="cta" href="#explode">
+      EXPLORE <b>↓</b>
+    </a>
+
   </div>
-  <div class="hero-stack" aria-label="STACK'D burger">
-    <img src="assets/01_top_bun.png">
-    <img src="assets/02_sauce.png">
-    <img src="assets/03_bacon.png">
-    <img src="assets/04_cheddar.png">
-    <img src="assets/05_patty_1.png">
-    <img src="assets/06_patty_2.png">
-    <img src="assets/07_tomato.png">
-    <img src="assets/08_red_onion.png">
-    <img src="assets/09_lettuce.png">
-    <img src="assets/10_bottom_bun.png">
+
+
+  <!-- BURGER -->
+
+  <div
+    class="hero-stack"
+    aria-label="STACK'D burger"
+  >
+
+    <img
+      src="01_top_bun.png"
+      alt="Briós felső buci"
+    >
+
+    <img
+      src="02_sauce.png"
+      alt="Signature szósz"
+    >
+
+    <img
+      src="03_bacon.png"
+      alt="Ropogós bacon"
+    >
+
+    <img
+      src="04_cheddar.png"
+      alt="Cheddar sajt"
+    >
+
+    <img
+      src="05_patty_1.png"
+      alt="Marhahús"
+    >
+
+    <img
+      src="06_patty_2.png"
+      alt="Második marhahús"
+    >
+
+    <img
+      src="07_tomato.png"
+      alt="Paradicsom"
+    >
+
+    <img
+      src="08_red_onion.png"
+      alt="Lilahagyma"
+    >
+
+    <img
+      src="09_lettuce.png"
+      alt="Saláta"
+    >
+
+    <img
+      src="10_bottom_bun.png"
+      alt="Alsó briós buci"
+    >
+
   </div>
-  <div class="scroll">SCROLL TO EXPLORE</div>
+
+
+  <div class="scroll">
+    SCROLL TO EXPLORE
+  </div>
+
 </section>
 
-<section class="explode" id="explode">
- <div class="sticky">
-  <div class="section-copy">
-    <p>THE STACK'D</p><h2>WHAT'S<br>INSIDE?</h2>
-    <span>Every layer earns its place.</span>
+
+
+<!-- ========================================
+     EXPLODED BURGER
+======================================== -->
+
+<section
+  class="explode"
+  id="explode"
+>
+
+  <div class="sticky">
+
+
+    <!-- LEFT TEXT -->
+
+    <div class="section-copy">
+
+      <p>
+        THE STACK'D
+      </p>
+
+      <h2>
+        WHAT'S<br>
+        INSIDE?
+      </h2>
+
+      <span>
+        Every layer earns its place.
+      </span>
+
+    </div>
+
+
+
+    <!-- BURGER LAYERS -->
+
+    <div
+      class="burger"
+      id="burger"
+    >
+
+      <img
+        class="layer"
+        data-i="0"
+        src="01_top_bun.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="1"
+        src="02_sauce.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="2"
+        src="03_bacon.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="3"
+        src="04_cheddar.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="4"
+        src="05_patty_1.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="5"
+        src="06_patty_2.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="6"
+        src="07_tomato.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="7"
+        src="08_red_onion.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="8"
+        src="09_lettuce.png"
+        alt=""
+      >
+
+      <img
+        class="layer"
+        data-i="9"
+        src="10_bottom_bun.png"
+        alt=""
+      >
+
+    </div>
+
+
+
+    <!-- INGREDIENT LABELS -->
+
+    <div class="labels">
+
+      <div data-i="0">
+        <b>BRIÓS BUCI</b>
+        <span>Puha, vajas, pirított</span>
+      </div>
+
+      <div data-i="1">
+        <b>SIGNATURE SZÓSZ</b>
+        <span>Saját recept</span>
+      </div>
+
+      <div data-i="2">
+        <b>ROPOGÓS BACON</b>
+        <span>Füstölt és ropogós</span>
+      </div>
+
+      <div data-i="3">
+        <b>CHEDDAR</b>
+        <span>Olvadó, krémes</span>
+      </div>
+
+      <div data-i="4">
+        <b>100% MARHAHÚS</b>
+        <span>Prémium, szaftos</span>
+      </div>
+
+      <div data-i="5">
+        <b>DOUBLE SMASH</b>
+        <span>Mert egy nem elég</span>
+      </div>
+
+      <div data-i="6">
+        <b>PARADICSOM</b>
+        <span>Friss és lédús</span>
+      </div>
+
+      <div data-i="7">
+        <b>LILAHAGYMA</b>
+        <span>Karakteres</span>
+      </div>
+
+      <div data-i="8">
+        <b>FRISS SALÁTA</b>
+        <span>Ropogós</span>
+      </div>
+
+      <div data-i="9">
+        <b>BRIÓS ALAP</b>
+        <span>Ami mindent összetart</span>
+      </div>
+
+    </div>
+
   </div>
 
-  <div class="burger" id="burger">
-    <img class="layer" data-i="0" src="assets/01_top_bun.png">
-    <img class="layer" data-i="1" src="assets/02_sauce.png">
-    <img class="layer" data-i="2" src="assets/03_bacon.png">
-    <img class="layer" data-i="3" src="assets/04_cheddar.png">
-    <img class="layer" data-i="4" src="assets/05_patty_1.png">
-    <img class="layer" data-i="5" src="assets/06_patty_2.png">
-    <img class="layer" data-i="6" src="assets/07_tomato.png">
-    <img class="layer" data-i="7" src="assets/08_red_onion.png">
-    <img class="layer" data-i="8" src="assets/09_lettuce.png">
-    <img class="layer" data-i="9" src="assets/10_bottom_bun.png">
-  </div>
-
-  <div class="labels">
-    <div data-i="0"><b>BRIÓS BUCI</b><span>Puha, vajas, pirított</span></div>
-    <div data-i="1"><b>SIGNATURE SZÓSZ</b><span>Saját recept</span></div>
-    <div data-i="2"><b>ROPOGÓS BACON</b><span>Füstölt és ropogós</span></div>
-    <div data-i="3"><b>CHEDDAR</b><span>Olvadó, krémes</span></div>
-    <div data-i="4"><b>100% MARHAHÚS</b><span>Prémium, szaftos</span></div>
-    <div data-i="5"><b>DOUBLE SMASH</b><span>Mert egy nem elég</span></div>
-    <div data-i="6"><b>PARADICSOM</b><span>Friss és lédús</span></div>
-    <div data-i="7"><b>LILAHAGYMA</b><span>Karakteres</span></div>
-    <div data-i="8"><b>FRISS SALÁTA</b><span>Ropogós</span></div>
-    <div data-i="9"><b>BRIÓS ALAP</b><span>Ami mindent összetart</span></div>
-  </div>
- </div>
 </section>
 
-<section class="order" id="order">
-  <p>BUILD YOUR CRAVING</p>
-  <h2>THE STACK'D</h2>
-  <div class="orderCard"><span>DOUBLE SMASH · BACON · CHEDDAR</span><strong>3 490 Ft</strong><button>KOSÁRBA +</button></div>
+
+
+<!-- ========================================
+     ORDER
+======================================== -->
+
+<section
+  class="order"
+  id="order"
+>
+
+  <p>
+    BUILD YOUR CRAVING
+  </p>
+
+  <h2>
+    THE STACK'D
+  </h2>
+
+
+  <div class="orderCard">
+
+    <span>
+      DOUBLE SMASH · BACON · CHEDDAR
+    </span>
+
+    <strong>
+      3 490 Ft
+    </strong>
+
+    <button>
+      KOSÁRBA +
+    </button>
+
+  </div>
+
 </section>
+
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+
+<!-- ========================================
+     GSAP
+======================================== -->
+
+<script
+  src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js">
+</script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js">
+</script>
+
+
+<!-- SITE SCRIPT -->
+
 <script src="script.js"></script>
+
+
 </body>
 </html>
